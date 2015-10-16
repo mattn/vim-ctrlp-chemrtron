@@ -28,7 +28,7 @@ function! ctrlp#chemrtron#init()
     let s:lines = map(s:lines, 'v:val . "\thttp://search.cpan.org/perldoc?" . v:val')
   endif
   return s:lines
-endfunc
+endfunction
 
 function! ctrlp#chemrtron#start(word)
   let s:word = a:word
